@@ -9,7 +9,7 @@ input.addEventListener('keydown', (event) => {
     event.preventDefault()
 }
 
-main.addEventListener('click',(event) => {
+main.addEventListener('click', (event) => {
   console.log('I was clicked')
   alert ('hey you clicked me')
 })
