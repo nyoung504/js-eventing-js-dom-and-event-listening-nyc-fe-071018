@@ -1,5 +1,5 @@
-const main =document.querySelector('#main")
+const main =document.querySelector("#main")
 
 main.addEventListener('click',(event) => {
-  consle.log('I was clicked')
+  console.log('I was clicked')
 })
