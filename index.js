@@ -5,3 +5,7 @@ main.addEventListener('click',(event) => {
   console.log('I was clicked')
   alert ('hey you clicked me')
 })
+
+paragraph.addEventListener('click', (event) =>{
+  alert("you clicked the p!!!")
+})
