@@ -17,6 +17,6 @@ function bubble(event) {
 
 }
   
-  (for div of divs){
+  (for div of divs) {
     div.addEventListener('click', bubble)
   }
