@@ -10,3 +10,7 @@ paragraph.addEventListener('click', (event) =>{
   alert("you clicked the p!!!")
   paragraph.style.backgroundColor = 'yellow'
 })
+
+Function bubble(event) {
+  console.log(this.firstChild.nodeValue.trim() + 'bubbled')
+}
