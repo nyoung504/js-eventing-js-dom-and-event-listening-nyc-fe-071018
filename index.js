@@ -1,5 +1,13 @@
 const main =document.querySelector("#main")
 const paragraph = document.querySelector('p')
+const input = document.querySelector('input')
+
+let divs = document.querySelectorAll('div')
+
+input.addEventListener('keydown', (event) => {
+  if (event.which ===71) {
+    event.preventDefault()
+})
 
 main.addEventListener('click',(event) => {
   console.log('I was clicked')
