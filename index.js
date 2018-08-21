@@ -7,7 +7,7 @@ let divs = document.querySelectorAll('div')
 input.addEventListener('keydown', (event) => {
   if (event.which ===71) {
     event.preventDefault()
-})
+}
 
 main.addEventListener('click',(event) => {
   console.log('I was clicked')
