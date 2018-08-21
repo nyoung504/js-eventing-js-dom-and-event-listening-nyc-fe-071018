@@ -11,6 +11,6 @@ paragraph.addEventListener('click', (event) =>{
   paragraph.style.backgroundColor = 'yellow'
 })
 
-Function bubble(event) {
+function bubble(event) {
   console.log(this.firstChild.nodeValue.trim() + 'bubbled')
 }
