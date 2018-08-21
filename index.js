@@ -14,4 +14,6 @@ paragraph.addEventListener('click', (event) =>{
 
 function bubble(event) {
   console.log(this.firstChild.nodeValue.trim() + 'bubbled')
+  
+  (for div of divs)
 }
